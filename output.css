@@ -620,6 +620,14 @@ video {
   top: 90px;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-\[70px\] {
+  top: 70px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -634,6 +642,10 @@ video {
 
 .m-5 {
   margin: 1.25rem;
+}
+
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-auto {
@@ -693,24 +705,40 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[48px\] {
-  margin-top: 48px;
-}
-
-.mt-\[-1px\] {
-  margin-top: -1px;
-}
-
-.mt-\[-5px\] {
-  margin-top: -5px;
-}
-
 .mt-\[-10px\] {
   margin-top: -10px;
 }
 
+.mt-\[48px\] {
+  margin-top: 48px;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -749,12 +777,40 @@ video {
   height: 100%;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[170px\] {
+  height: 170px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[55px\] {
+  width: 55px;
 }
 
 .w-full {
@@ -765,32 +821,8 @@ video {
   width: 1.25rem;
 }
 
-.w-9 {
-  width: 2.25rem;
-}
-
-.w-\[50px\] {
-  width: 50px;
-}
-
-.w-\[80px\] {
-  width: 80px;
-}
-
-.w-\[70px\] {
-  width: 70px;
-}
-
-.w-\[65px\] {
-  width: 65px;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[55px\] {
-  width: 55px;
+.w-\[40px\] {
+  width: 40px;
 }
 
 .max-w-\[1110px\] {
@@ -799,6 +831,10 @@ video {
 
 .max-w-\[1410px\] {
   max-width: 1410px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 
 .flex-1 {
@@ -841,10 +877,20 @@ video {
   gap: 1.75rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -859,6 +905,18 @@ video {
   border-radius: 25px;
 }
 
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+
 .rounded-b-\[25px\] {
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -867,6 +925,16 @@ video {
 .rounded-t-\[25px\] {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+}
+
+.rounded-b-\[15px\] {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.rounded-t-\[15px\] {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .bg-\[\#0D0D0D\] {
@@ -931,6 +999,10 @@ video {
   padding: 2rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -954,6 +1026,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -983,6 +1065,27 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[120px\] {
+  font-size: 120px;
 }
 
 .font-bold {
@@ -1024,6 +1127,12 @@ video {
 
 .backdrop-blur-\[15px\] {
   --tw-backdrop-blur: blur(15px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-blur-\[10px\] {
+  --tw-backdrop-blur: blur(10px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
@@ -1083,8 +1192,16 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:left-5 {
+    left: 1.25rem;
+  }
+
   .sm\:gap-\[170px\] {
     gap: 170px;
+  }
+
+  .sm\:gap-\[100px\] {
+    gap: 100px;
   }
 
   .sm\:px-6 {
@@ -1092,16 +1209,21 @@ video {
     padding-right: 1.5rem;
   }
 
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:text-\[16px\] {
     font-size: 16px;
+  }
+
+  .sm\:text-\[14px\] {
+    font-size: 14px;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:left-7 {
-    left: 1.75rem;
-  }
-
   .md\:left-9 {
     left: 2.25rem;
   }
@@ -1130,6 +1252,10 @@ video {
     margin-top: 25px;
   }
 
+  .md\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1142,12 +1268,32 @@ video {
     width: 300px;
   }
 
+  .md\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .md\:w-\[270px\] {
+    width: 270px;
+  }
+
   .md\:max-w-\[1110px\] {
     max-width: 1110px;
   }
 
   .md\:max-w-\[917px\] {
     max-width: 917px;
+  }
+
+  .md\:max-w-\[900px\] {
+    max-width: 900px;
+  }
+
+  .md\:max-w-\[1100px\] {
+    max-width: 1100px;
+  }
+
+  .md\:max-w-\[1150px\] {
+    max-width: 1150px;
   }
 
   .md\:flex-row {
@@ -1160,5 +1306,9 @@ video {
 
   .md\:text-\[36px\] {
     font-size: 36px;
+  }
+
+  .md\:text-\[30px\] {
+    font-size: 30px;
   }
 }
