@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
@@ -12,12 +13,18 @@
 <div class="flex flex-col min-h-screen">
     <div class="flex-grow">
        
-<div class="w-full flex justify-center items-center">
+<div class="w-full flex justify-center items-center bg-[#0D0D0D] border-b-[1px] border-white/50">
     <!-- navbar -->
-    <nav class="w-full max-w-[1110px] h-[70px] rounded-[25px] bg-[#0D0D0D] m-5 px-5 flex items-center justify-between shadow-lg">
-        <h1 class="text-white text-[20px] font-bold ml-7 flex">
-            Pirate <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#FF5151] to-[#993030] duration-300">Live.tv</span>
-        </h1>
+    <nav class="w-[1200px] h-[70px] px-5 flex items-center justify-between shadow-lg">
+        <div class="flex items-center justify-center">
+            <h1 class="text-white text-[26px] font-bold ml-7 flex">
+                Pirate <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#FF5151] to-[#993030] duration-300">Live.tv</span>
+            </h1>
+            <form id="search" class="hidden md:flex items-center justify-center border-[1px] border-white/30 ml-5 bg-white/5 rounded-[5px] duration-300 hover:bg-white/10">
+                <h1 class="text-white ml-3 mt-1"><i class='bx bx-search'></i></h1>
+                <input type="text" placeholder="wyszukaj.." class="ml-3 py-1 text-white focus:outline-none bg-transparent">
+            </form>
+        </div>
                     
         <button id="hamburger-btn" class="block md:hidden text-white transition-transform duration-300 transform hover:scale-110">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
@@ -38,7 +45,18 @@
             <a href="#" class="duration-300 hover:text-gray-300 py-2 w-full text-center">Wyniki live</a>
             <a href="#" class="duration-300 hover:text-gray-300 py-2 w-full text-center">Forum</a>
         </div>
-    </nav> 
+    </nav>
+</div>
+<!-- info -->
+<div class="w-full flex justify-center items-center mb-2">
+    <nav class="w-full h-[30px] bg-[#525252] px-5 flex items-center justify-center backdrop-blur-5 text-white bg-[url('./assets/element2.png')] bg-cover bg-center">
+        <div class="max-w-[1200px] flex justify-end">
+            <div class="flex gap-[50px] text-white">
+                <a href="#"><span class="duration-300 hover:text-white/80 flex justify-center items-center gap-2"><i class='bx bx-log-in' style='color:#ffffff'></i> Logowanie</span></a>
+                <a href="#"><span class="duration-300 hover:text-white/80 flex justify-center items-center gap-2"><i class='bx bx-user-plus' style='color:#ffffff'></i> Rejestracja</span></a>
+            </div>
+        </div>
+    </nav>
 </div>
 
 <!-- Transmisje -->
@@ -167,7 +185,7 @@
 <!-- footer -->
 <footer class="bg-[#0D0D0D] text-white py-4 mt-[48px] w-full">
     <div class="md:max-w-[1150px] mx-auto">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+        <div class="container px-4 flex flex-col md:flex-row items-center justify-between">
           <p class="text-[20px] font-bold mb-5 md:mb-0">&copy; 2024 Pirative.tv</p>
           <div class="flex gap-4">
             <a href="#" class="text-sm hover:bg-[#1f1f1f] duration-300 bg-[#171717] p-2 rounded-[10px]">Polityka prywatności</a>
